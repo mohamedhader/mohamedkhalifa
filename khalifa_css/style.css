@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color:#151515;
+    --second--color:#A91D3A;
+    --third--color:#C73659;
+    --forth--color:#EEEEEE;
+}
+body{
+    height: 100vh;
+}
+@media(max-width:582px){
+    .main{
+        background-color: var(--main-color);
+    }
+}
