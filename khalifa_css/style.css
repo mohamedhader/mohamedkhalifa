@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0px;
     font-family: serif;
-    color: white;
+    color: rgb(255, 255, 255);
     scroll-behavior: smooth;
 }
 :root{
-    --main-color:#151515;
-    --second--color:#A91D3A;
-    --third--color:#C73659;
+    --main-color:#071952;
+    --second--color:#0b666a;
+    --third--color:#00ffd5;
     --forth--color:#EEEEEE;
 }
 body{
@@ -17,8 +17,28 @@ body{
 }
 @media(max-width:582px){
     .main{
-        background-color: var(--second--color);
+        background-image: linear-gradient(to bottom ,var(--main-color),var(--second--color));
         height: 100%;
         width: 100%;
     }
+    .main .logo ,ul{
+        display: none;
+    }
+    .main img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 1px double var(--third--color);
+        margin: 30px 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0px;
+    }
+    .main h5{
+        margin: 30px 50%;
+        transform: translateX(-50%);
+        width: 190px;
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
 }
