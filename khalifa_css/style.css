@@ -17,7 +17,7 @@ body{
 }
 @media(max-width:582px){
     .main{
-        
+        background-image: linear-gradient(to bottom ,var(--main-color),var(--second--color));
         height: 100%;
         width: 100%;
     }
