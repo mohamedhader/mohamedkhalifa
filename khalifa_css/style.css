@@ -13,14 +13,14 @@
     --forth--color:#EEEEEE;
 }
 body{
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 @media(max-width:582px){
     .main{
         background-image: linear-gradient(to bottom ,var(--main-color),var(--second--color));
         height: 100%;
-        width: 100%;
+        width: 130%;
     }
     .main .logo ,ul{
         display: none;
