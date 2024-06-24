@@ -282,6 +282,9 @@ main .fa-brands , main i{
         top: 232px;
         left: 10px;
     }
+    .red:hover{
+        color:red;
+    }
     .Projects .fa-solid{
         translate: 1px -7px;
     }
