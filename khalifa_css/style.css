@@ -282,13 +282,10 @@ main .fa-brands , main i{
         top: 232px;
         left: 10px;
     }
-    .red:hover{
-        color:red;
-    }
     .Projects .fa-solid{
         translate: 1px -7px;
     }
-    .main_contact .fa-arrow-up{
-        translate: 0px 0%;
+    .Projects .fa-solid:hover{
+        color: red;
     }
 }
